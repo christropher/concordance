@@ -26,7 +26,7 @@ public class Program
          */
         string noBreaks = Regex.Replace(text, @"\r\n?|\n", "");
         string[] sentences = Regex.Split(noBreaks, @"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s"); //Regex pattern for splitting each sentence into an array
-        Regex rgx = new Regex("[,:?!;]");   //trim pattern for each word without '.' due to abbreviations.
+        Regex rgx = new Regex("[,:?!;()]");   //trim pattern for each word without '.' due to abbreviations.
         foreach (string sentence in sentences) //loops over each sentence in the sentence array
         {
             index += 1; //adds 1 after each loop
