@@ -89,9 +89,9 @@ public class Program
             _value = alpha.Substring(modulo, 1) + _value + _value; //gets the substring of alpha based on the modulo plus itself
             wordCount = (wordCount / 26) - 1;
         } while ((wordCount + 1) > 0); //while there are integers
-        if (_value.Length == 3)
+        if (_value.Length >= 3)
         {
-            return _value.Substring(1,2);
+            return _value.Substring(1);
         }
         return _value; //returns formatted alpha count
     }
