@@ -19,7 +19,7 @@ class Concordance
   def getWords(word, index)
   	word = word.split(' ')
   	list = (word).each_with_index.inject(@hash) do |hash, (v, i)|
-  		k = v.sub /[?:;!,]\z/, ''
+  		k = v.sub /[?:;!,()]/, ''
   		@hash[k] += [index]
   	end
   end
