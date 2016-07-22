@@ -24,3 +24,5 @@ class Concordance
   	end
   end
 end
+
+Concordance.new()
