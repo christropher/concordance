@@ -6,7 +6,7 @@ Corcordance programs written in C# and Ruby. Bonus for both.
 
 * For the C# Version: 
     * Run via https://dotnetfiddle.net/4G8wTp 
-    * Or, compile + run the cs file in Visual Studio.
+    * Alternatively, you can compile + run the cs file in Visual Studio.
 * For the Ruby version:  
     * Open terminal and use Ruby ~/ExampleFilePath/concordance.rb 
     * Alternatively, you can run via: https://repl.it/Cf96
