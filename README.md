@@ -1,4 +1,4 @@
-# concordance
+# Concordance
 Corcordance programs written in C# and Ruby. Bonus for both.
 
 ## Challenge:
